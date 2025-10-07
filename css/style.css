@@ -16,7 +16,8 @@
 }
 
 body {
-    font-size: 16px;
+    font-size: 14px;
+    font-family: Figtree;
     margin: 0;
 }
 
@@ -52,7 +53,49 @@ body {
 }
 
 .data-article-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     flex: 1;
+    padding-top: 16px;
+}
+
+.topic-container {
+    width: fit-content;
+    padding: 4px 8px;
+    background-color: var(--yellow);
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 8px 0;
+    font-size: 22px;
+    color: var(--yellow);
+}
+
+.author-container > img {
+    width: 25px;
+}
+
+.author-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.description-container > p {
+    color: var(--light-gray);
+}
+
+.author-container > p {
+    font-weight: 800;
 }
 
 @media screen and (max-width: 768px) {
