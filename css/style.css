@@ -76,7 +76,11 @@ p {
 h1 {
     margin: 8px 0;
     font-size: 22px;
+}
+
+h1:hover {
     color: var(--yellow);
+    cursor: pointer;
 }
 
 .author-container > img {
